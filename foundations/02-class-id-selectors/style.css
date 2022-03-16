@@ -1,0 +1,21 @@
+.imaclass {
+    background-color: #7e5662;
+    font-family: verdana, "DejaVu Sans", sans-serif;
+}
+
+#imanid {
+    color: blue;
+    font-size: 36px;
+}
+
+.imaclass2 {
+    background-color:#7e5662;
+    font-family: verdana, "DejaVu Sans", sans-serif;
+    font-size: 24px;
+}
+
+#imanid2 {
+   background-color: rgb(29, 189, 29);
+    font-size: 24px;
+    font-weight: bold;
+}
