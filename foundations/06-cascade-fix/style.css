@@ -1,14 +1,27 @@
+/* It goes ID, class type. para is a class. small para is a class */
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
+}
+
+/* I switched para and small para and that worked. I guess because
+small para is second class of para? Not sure the technical term */
+
+.para {
+  font-size: 22px;
 }
 
 .small-para {
   font-size: 14px;
 }
 
-.para {
-  font-size: 22px;
+/*I moved .button above .confirm because confirm is a class
+and I assumed it was after .button (also class?) It worked. */
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 .confirm {
@@ -17,18 +30,14 @@
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
 
-.child {
-  color: red;
-  font-size: 14px;
-}
 
 div.text {
   color: green;
   font-size: 22px;
+}
+
+.text.child {
+  color: red;
+  font-size: 14px;
 }
