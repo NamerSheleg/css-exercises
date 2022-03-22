@@ -38,7 +38,6 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  margin: 3px;
 }
 
 a {
@@ -51,18 +50,4 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 40px;
-}
-
-.left {
-  display: flex;
-}
-
-.right {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-.profile-image {
-  margin-right: 3px;
 }
