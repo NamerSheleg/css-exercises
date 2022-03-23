@@ -26,35 +26,45 @@ input {
   margin-bottom: 16px;
 }
 
-.header {
+/* SOLUTION */
+
+body {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
-.left-links {
-  display: flex;
-  gap: 16px;
-  list-style-type: none;
-}
-
-.right-links {
-  display: flex;
-  gap: 16px;
-  list-style-type: none;
+button {
+  padding: 8px 16px;
 }
 
 .content {
+  flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  margin-top: 200px;
+  padding: 16px;
 }
 
+.footer {
+  background: #eee;
+}
 
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
